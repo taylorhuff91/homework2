@@ -1,4 +1,5 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 
 html {
     color: #222;
@@ -56,7 +57,67 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background: #f46b42;
+    font-family: 'Bree Serif', serif;
+}
 
+.main {
+    background: #fff;
+    width: 380px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 26px;
+    text-align: center;
+    color: #e05033;
+}
+
+p {
+    font-size: 18px;
+    color: #e05033;
+}
+
+input {
+    width: 75%;
+    border: none;
+    color: #e05033;
+    border-bottom: 3px solid #e05033;
+    font-size: 45px;
+    text-align: center;
+}
+
+button {
+    background: #fff;
+    box-shadow: none;
+    border: 3px solid #e05033;
+    color: #e05033;
+    width: 20%;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #e05033;
+    border: 3px solid #e05033;
+    color: #fff;
+}
+
+p.guessResponse {
+    text-align: center;
+    color: #f46b42;
+    font-size: 24px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 
 
 
